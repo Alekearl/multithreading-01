@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class ForkTest {
-    private static Integer EXPECTED = 1000000;
+    private static final Integer EXPECTED = 1000000;
     private static ForkImpl fork;
     private static List<Integer> integerList;
 

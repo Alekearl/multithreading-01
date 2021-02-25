@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 class ExecutorTest {
-    private static Integer EXPECTED = 1000000;
+    private static final Integer EXPECTED = 1000000;
     private static ExecutorSumThread executorSumThread;
     private static List<Integer> integerList;
 
